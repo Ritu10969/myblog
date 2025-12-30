@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Link on AoToLog</title>
+    <link>http://localhost:63166/tags/link/</link>
+    <description>Recent content in Link on AoToLog</description>
+    <generator>Hugo -- 0.153.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Dec 2025 01:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:63166/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mutao&#39;s Log</title>
+      <link>http://localhost:63166/posts/test-link/</link>
+      <pubDate>Tue, 30 Dec 2025 01:00:00 +0900</pubDate>
+      <guid>http://localhost:63166/posts/test-link/</guid>
+      <description>参考にしているサイトです。</description>
+    </item>
+  </channel>
+</rss>

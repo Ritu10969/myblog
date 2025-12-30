@@ -1,0 +1,14 @@
+.entry-domain-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--secondary);
+    margin-bottom: 6px;
+}
+
+.domain-icon svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
