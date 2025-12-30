@@ -1,4 +1,30 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: AoToLog
 theme: PaperMod
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  homeInfoParams:
+    title: "🐶 AoTo 🐶"
+    imageUrl: "https://pbs.twimg.com/profile_images/1502463618595532802/d4jwfrfG_400x400.jpg"
+    subtitle: "AoToLog"
+    content: "AoTo, Sales Engineer @Datadog<br> Cloud Enthusiast, Observability Specialist, Community Builder"
+  socialIcons:
+    - name: github
+      url: "https://github.com/AoTo0330"
+    - name: x
+      url: "https://x.com/AoToLog_"
+    - name: linkedin
+      url: "https://linkedin.com/in/aoto"
+    - name: zenn
+      url: "https://zenn.dev/aotolog"
+    - name: qiita
+      url: "https://qiita.com/aoto0330"
+    - name: speakerdeck
+      url: "https://speakerdeck.com/aoto"
+    - name: sizu.me
+      url: "https://sizu.me/aoto"
+    
