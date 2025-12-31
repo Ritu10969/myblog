@@ -2,24 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:63874/</loc>
-    <lastmod>2025-12-01T01:05:00+09:00</lastmod>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-12-03T01:05:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63874/tags/hugo/</loc>
-    <lastmod>2025-12-01T01:05:00+09:00</lastmod>
+    <loc>//localhost:1313/tags/hugo/</loc>
+    <lastmod>2025-12-03T01:05:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63874/posts/hugo-website/</loc>
-    <lastmod>2025-12-01T01:05:00+09:00</lastmod>
+    <loc>//localhost:1313/posts/hugo-website/</loc>
+    <lastmod>2025-12-03T01:05:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63874/posts/</loc>
-    <lastmod>2025-12-01T01:05:00+09:00</lastmod>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-12-03T01:05:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63874/tags/</loc>
-    <lastmod>2025-12-01T01:05:00+09:00</lastmod>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-12-03T01:05:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63874/tags/tool/</loc>
-    <lastmod>2025-12-01T01:05:00+09:00</lastmod>
+    <loc>//localhost:1313/tags/tool/</loc>
+    <lastmod>2025-12-03T01:05:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63874/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/posts/markdown%e8%a8%98%e6%b3%95%e3%81%ae%e3%83%81%e3%83%bc%e3%83%88%e3%82%b7%e3%83%bc%e3%83%88/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>//localhost:1313/links/posts/%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%81%94%e3%81%a8%e3%81%ae%e8%a8%98%e4%ba%8b%e4%b8%80%e8%a6%a7%e3%82%92rss%e3%81%a7%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

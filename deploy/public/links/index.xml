@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AoToLog</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on AoToLog</description>
+    <title>Links on AoToLog</title>
+    <link>//localhost:1313/links/</link>
+    <description>Recent content in Links on AoToLog</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown記法のチートシート</title>
       <link>//localhost:1313/links/posts/markdown%e8%a8%98%e6%b3%95%e3%81%ae%e3%83%81%e3%83%bc%e3%83%88%e3%82%b7%e3%83%bc%e3%83%88/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/links/posts/markdown%e8%a8%98%e6%b3%95%e3%81%ae%e3%83%81%e3%83%bc%e3%83%88%e3%82%b7%e3%83%bc%e3%83%88/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Qiitaの記事サンプル 1</title>
-      <link>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Qiitaの記事サンプル 2</title>
-      <link>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-2/</guid>
       <description></description>
     </item>
     <item>

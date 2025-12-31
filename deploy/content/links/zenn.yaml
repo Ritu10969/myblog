@@ -1,0 +1,8 @@
+defaultIcon: "zenn"
+items:
+  - title: "ユーザーごとの記事一覧をRSSで取得する"
+    url: "https://zenn.dev/zenn/articles/zenn-feed-rss"
+    date: "2024-01-01T00:00:00+09:00"
+  - title: "Markdown記法のチートシート"
+    url: "https://zenn.dev/zenn/articles/markdown-guide"
+    date: "2024-01-02T00:00:00+09:00"

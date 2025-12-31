@@ -1,0 +1,9 @@
+defaultIcon: "link"
+items:
+  - title: "Hugo Official Website"
+    url: "https://gohugo.io/"
+    date: "2025-12-03T01:05:00+09:00"
+  - title: "Mutao's Log"
+    url: "https://mutao.pages.dev/"
+    date: "2023-12-31T01:00:00+09:00"
+    icon: "sizu.me"

@@ -1,0 +1,19 @@
+{{ warnf "Adapter running in content/links..." }}
+{{ range os.ReadDir "content/links" }}
+  {{ $f := . }}
+  {{ if strings.HasSuffix $f.Name ".yaml" }}
+    {{ $path := path.Join "content/links" $f.Name }}
+    {{ $data := unmarshal (os.ReadFile $path) }}
+    {{ range $data.items }}
+      {{ $page := dict
+        "kind" "page"
+        "type" "posts"
+        "path" (path.Join "posts" (urlize .title))
+        "title" .title
+        "date" (time.AsTime .date)
+        "params" (dict "ExternalUrl" .url "icon" (or .icon $data.defaultIcon))
+      }}
+      {{ $.AddPage $page }}
+    {{ end }}
+  {{ end }}
+{{ end }}
