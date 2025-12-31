@@ -1,6 +1,8 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: AoToLog
+pagination:
+  pagerSize: 50
 theme: PaperMod
 markup:
   goldmark:
