@@ -8,10 +8,10 @@
       {{ $page := dict
         "kind" "page"
         "type" "posts"
-        "path" (path.Join "posts" (urlize .title))
+        "path" (path.Join "posts" (md5 .url))
         "title" .title
-        "date" (time.AsTime .date)
-        "params" (dict "ExternalUrl" .url "icon" (or .icon $data.defaultIcon))
+        "dates" (dict "date" (time.AsTime .date) "publishDate" (time.AsTime .date))
+        "params" (dict "ExternalUrl" .url "icon" (or .icon $data.defaultIcon) "date" (time.AsTime .date))
       }}
       {{ $.AddPage $page }}
     {{ end }}

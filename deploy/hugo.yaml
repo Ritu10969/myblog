@@ -1,7 +1,7 @@
 languageCode: en-us
 title: AoToLog
 pagination:
-  pagerSize: 50
+  pagerSize: 20
 theme: PaperMod
 markup:
   goldmark:

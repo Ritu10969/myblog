@@ -6,33 +6,475 @@
     <description>Recent content on AoToLog</description>
     <generator>Hugo -- 0.153.4</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 03 Dec 2025 07:00:00 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown記法のチートシート</title>
-      <link>//localhost:1313/links/posts/markdown%e8%a8%98%e6%b3%95%e3%81%ae%e3%83%81%e3%83%bc%e3%83%88%e3%82%b7%e3%83%bc%e3%83%88/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/posts/markdown%e8%a8%98%e6%b3%95%e3%81%ae%e3%83%81%e3%83%bc%e3%83%88%e3%82%b7%e3%83%bc%e3%83%88/</guid>
+      <title>大規模 Cloud Run 環境を支える Datadog の Terraform 実装</title>
+      <link>//localhost:1313/links/posts/cdce4c9590d573ade9ed4445dc2c0e44/</link>
+      <pubDate>Wed, 03 Dec 2025 07:00:00 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/cdce4c9590d573ade9ed4445dc2c0e44/</guid>
       <description></description>
     </item>
     <item>
-      <title>Qiitaの記事サンプル 1</title>
-      <link>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-1/</guid>
+      <title>あなたの SRE チームを促進させる、Bits AI SRE 偉いところ</title>
+      <link>//localhost:1313/links/posts/e9073dd2ce939d6bb8a5fdce1f14b3e0/</link>
+      <pubDate>Tue, 02 Dec 2025 09:15:00 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/e9073dd2ce939d6bb8a5fdce1f14b3e0/</guid>
       <description></description>
     </item>
     <item>
-      <title>Qiitaの記事サンプル 2</title>
-      <link>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/posts/qiita%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-2/</guid>
+      <title>Datadog Japan 有志ブログのご紹介</title>
+      <link>//localhost:1313/links/posts/4f5d531f53e56004e4a8c35867b53d68/</link>
+      <pubDate>Mon, 01 Dec 2025 00:28:38 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/4f5d531f53e56004e4a8c35867b53d68/</guid>
       <description></description>
     </item>
     <item>
-      <title>ユーザーごとの記事一覧をRSSで取得する</title>
-      <link>//localhost:1313/links/posts/%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%81%94%e3%81%a8%e3%81%ae%e8%a8%98%e4%ba%8b%e4%b8%80%e8%a6%a7%e3%82%92rss%e3%81%a7%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/posts/%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%81%94%e3%81%a8%e3%81%ae%e8%a8%98%e4%ba%8b%e4%b8%80%e8%a6%a7%e3%82%92rss%e3%81%a7%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b/</guid>
+      <title> Google Cloud おすすめ学習方法5選【初学者~中級者向け】</title>
+      <link>//localhost:1313/links/posts/b971e28d65a9812d7b2df7f44d4a3beb/</link>
+      <pubDate>Mon, 30 Dec 2024 02:28:20 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/b971e28d65a9812d7b2df7f44d4a3beb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run を GKE の代替として利用する</title>
+      <link>//localhost:1313/links/posts/7b6f9a01776ac139d0a785c4f8586cc7/</link>
+      <pubDate>Wed, 25 Dec 2024 23:46:54 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/7b6f9a01776ac139d0a785c4f8586cc7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>マルチステージビルドを完全に理解して Cloud Run のセキュリティを向上する</title>
+      <link>//localhost:1313/links/posts/0d88fa9d9da6cb079835b25f89b9996e/</link>
+      <pubDate>Wed, 25 Dec 2024 21:05:37 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/0d88fa9d9da6cb079835b25f89b9996e/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run services トレース監視「だいたいぜんぶ」</title>
+      <link>//localhost:1313/links/posts/66b6d3b95b3e1e01ff679cd9d9b445ce/</link>
+      <pubDate>Wed, 25 Dec 2024 21:04:21 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/66b6d3b95b3e1e01ff679cd9d9b445ce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run services ログ監視「だいたいぜんぶ」</title>
+      <link>//localhost:1313/links/posts/22706dea863035a08847f62b4b7bb7a8/</link>
+      <pubDate>Wed, 25 Dec 2024 20:25:10 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/22706dea863035a08847f62b4b7bb7a8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>クラウド認定資格を更新し続ける理由</title>
+      <link>//localhost:1313/links/posts/24e10475f1697a6e4cd5a914aa7543ad/</link>
+      <pubDate>Tue, 24 Dec 2024 00:55:35 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/24e10475f1697a6e4cd5a914aa7543ad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run services メトリクス監視「だいたいぜんぶ」</title>
+      <link>//localhost:1313/links/posts/b27aef4b6786827a2cea8ca2c9bb4ee8/</link>
+      <pubDate>Tue, 24 Dec 2024 00:20:26 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/b27aef4b6786827a2cea8ca2c9bb4ee8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>え、APM と分散トレースは同じじゃないですよ？</title>
+      <link>//localhost:1313/links/posts/64741aad644868e662720a61461cd3af/</link>
+      <pubDate>Mon, 23 Dec 2024 14:47:42 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/64741aad644868e662720a61461cd3af/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenTelemetry Certified Associate(OTCA) 最速受験記</title>
+      <link>//localhost:1313/links/posts/474361cdb2e7592e5a4d57c12611d400/</link>
+      <pubDate>Sat, 21 Dec 2024 02:23:10 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/474361cdb2e7592e5a4d57c12611d400/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>で、Cloud Run と App Engine って何が違うの？</title>
+      <link>//localhost:1313/links/posts/1c8afbe0c9bbe9fedb81f8a7434ac9ea/</link>
+      <pubDate>Fri, 20 Dec 2024 21:32:36 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/1c8afbe0c9bbe9fedb81f8a7434ac9ea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【Oura × Datadog】API の特性を活かした効率的な連携アプローチ</title>
+      <link>//localhost:1313/links/posts/c6319759d60190985c123ce0f4a32a18/</link>
+      <pubDate>Fri, 20 Dec 2024 05:20:39 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/c6319759d60190985c123ce0f4a32a18/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024年の技術コミュニティ活動を振り返る</title>
+      <link>//localhost:1313/links/posts/59463aedab49f2cc3ff19bf25acdd0fd/</link>
+      <pubDate>Fri, 20 Dec 2024 02:30:06 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/59463aedab49f2cc3ff19bf25acdd0fd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>監視データの特性 - 分散トレースのサンプリング</title>
+      <link>//localhost:1313/links/posts/ee5001591564a2853ae7eabacc095c35/</link>
+      <pubDate>Thu, 19 Dec 2024 09:40:18 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/ee5001591564a2853ae7eabacc095c35/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog を使いこなす 7 Tips </title>
+      <link>//localhost:1313/links/posts/28bddebcb7497507bcdda78d475453f9/</link>
+      <pubDate>Wed, 18 Dec 2024 17:01:13 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/28bddebcb7497507bcdda78d475453f9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>監視データの特性 - ログの保管と転送</title>
+      <link>//localhost:1313/links/posts/e6f164d4818f9af57e6b0c35536bb447/</link>
+      <pubDate>Tue, 17 Dec 2024 22:43:07 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/e6f164d4818f9af57e6b0c35536bb447/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS re:Invent 2024 で AWS Observability はどう変わったか</title>
+      <link>//localhost:1313/links/posts/41fca14ede1715226a5d471d02ad31ef/</link>
+      <pubDate>Tue, 17 Dec 2024 02:16:58 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/41fca14ede1715226a5d471d02ad31ef/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>監視データの特性 - メトリクスの次元とカーディナリティ</title>
+      <link>//localhost:1313/links/posts/be8672fbec3ed3e1f157e0a2a5c8c5dc/</link>
+      <pubDate>Mon, 16 Dec 2024 15:05:21 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/be8672fbec3ed3e1f157e0a2a5c8c5dc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS re:Invent 2024 で発表された Datadog の新機能: AWS integration &amp; support 編</title>
+      <link>//localhost:1313/links/posts/42f79dfc3993ec2a7ad6e3ad4213ebc8/</link>
+      <pubDate>Sun, 15 Dec 2024 02:24:19 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/42f79dfc3993ec2a7ad6e3ad4213ebc8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS re:Invent 2024 で発表された Datadog の新機能: Datadog Product 編</title>
+      <link>//localhost:1313/links/posts/b9cad2fc6f2e13946513c19b4f35a0ba/</link>
+      <pubDate>Wed, 11 Dec 2024 07:31:44 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/b9cad2fc6f2e13946513c19b4f35a0ba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【図解】OpenTelemetry × Datadog </title>
+      <link>//localhost:1313/links/posts/7c560cd9533918c3e7d6309d9128c013/</link>
+      <pubDate>Tue, 10 Dec 2024 01:12:06 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/7c560cd9533918c3e7d6309d9128c013/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DASH 2024 で発表された Datadog の最新機能: Act 編</title>
+      <link>//localhost:1313/links/posts/7d10b298a54998baec141cc38e28f395/</link>
+      <pubDate>Mon, 09 Dec 2024 09:25:17 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/7d10b298a54998baec141cc38e28f395/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DASH 2024 で発表された Datadog の最新機能: Secure 編</title>
+      <link>//localhost:1313/links/posts/d9b1c01ddc2adae6ced55544ddeab01d/</link>
+      <pubDate>Sat, 07 Dec 2024 21:45:38 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/d9b1c01ddc2adae6ced55544ddeab01d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DASH 2024 で発表された Datadog の最新機能: Observe 編</title>
+      <link>//localhost:1313/links/posts/436394b61ff89080b2aed7d7520c31c3/</link>
+      <pubDate>Fri, 06 Dec 2024 05:32:09 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/436394b61ff89080b2aed7d7520c31c3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog integrations Deep Dive - Google Cloud 編</title>
+      <link>//localhost:1313/links/posts/35133924cfd041ff8e85b28e9f556783/</link>
+      <pubDate>Thu, 05 Dec 2024 10:33:30 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/35133924cfd041ff8e85b28e9f556783/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog integrations Deep Dive - Azure 編</title>
+      <link>//localhost:1313/links/posts/d931f18cef95f4d769bd8c5c609824c0/</link>
+      <pubDate>Wed, 04 Dec 2024 20:39:47 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/d931f18cef95f4d769bd8c5c609824c0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog integrations Deep Dive - AWS 編</title>
+      <link>//localhost:1313/links/posts/046e6e30ba9882faf1dbb67656bbb3df/</link>
+      <pubDate>Tue, 03 Dec 2024 11:53:56 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/046e6e30ba9882faf1dbb67656bbb3df/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【完全解説】4大クラウドの Datadog integrations アーキテクチャ【2024年版】</title>
+      <link>//localhost:1313/links/posts/a6aef8206fff34ce741b0a651836df48/</link>
+      <pubDate>Fri, 01 Nov 2024 22:53:23 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/a6aef8206fff34ce741b0a651836df48/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>詳細解説 Cloud Run 最新アップデート</title>
+      <link>//localhost:1313/links/posts/2cb1a2971fa4152c9767f087b19aa5cf/</link>
+      <pubDate>Tue, 30 Apr 2024 19:29:55 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/2cb1a2971fa4152c9767f087b19aa5cf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>で、Cloud Functions と Cloud Run って何が違うの？</title>
+      <link>//localhost:1313/links/posts/14db58a3762bd4460026cd4b05290c1e/</link>
+      <pubDate>Wed, 31 Jan 2024 07:59:13 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/14db58a3762bd4460026cd4b05290c1e/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog に Google Cloud のログをセキュアに送信する</title>
+      <link>//localhost:1313/links/posts/81bb1895a1e6d6577c9333e7e0ab7243/</link>
+      <pubDate>Thu, 18 Jan 2024 09:41:00 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/81bb1895a1e6d6577c9333e7e0ab7243/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Buildpacks が Google Cloud で使える件</title>
+      <link>//localhost:1313/links/posts/4470302f6c52ef6ab98d81b0550e05c5/</link>
+      <pubDate>Tue, 26 Dec 2023 23:10:03 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/4470302f6c52ef6ab98d81b0550e05c5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Metrics Data plane API で何が変わったのか？</title>
+      <link>//localhost:1313/links/posts/acab48b0ccb745f0422e42192ed3449b/</link>
+      <pubDate>Mon, 25 Dec 2023 17:44:36 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/acab48b0ccb745f0422e42192ed3449b/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qiita Advent Calendar を個人で完走した</title>
+      <link>//localhost:1313/links/posts/d5997213ce2e28dbb06fbb26de254337/</link>
+      <pubDate>Mon, 25 Dec 2023 04:15:27 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/d5997213ce2e28dbb06fbb26de254337/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【Google Cloud Next Tokyo ’23】Datadog で GKE とマネージドサービスを効率的に運用する方法【Datadog】</title>
+      <link>//localhost:1313/links/posts/47e3b60f9b5c4d2e33a85160f0515ea9/</link>
+      <pubDate>Mon, 25 Dec 2023 03:34:38 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/47e3b60f9b5c4d2e33a85160f0515ea9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog Agent の豆知識</title>
+      <link>//localhost:1313/links/posts/a4dbcb26328ac0dff9beedfd775dc62c/</link>
+      <pubDate>Sun, 24 Dec 2023 21:57:42 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/a4dbcb26328ac0dff9beedfd775dc62c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenTelemetry と Prometheus</title>
+      <link>//localhost:1313/links/posts/4d911b5963d2a53d59a295bbf8861a48/</link>
+      <pubDate>Fri, 22 Dec 2023 22:52:52 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/4d911b5963d2a53d59a295bbf8861a48/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>eBPF で SRE を始めよう！</title>
+      <link>//localhost:1313/links/posts/fa1413ce9734ede312a1cd7287e27493/</link>
+      <pubDate>Thu, 21 Dec 2023 23:50:41 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/fa1413ce9734ede312a1cd7287e27493/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Four Keys って何？ | Datadog DORA Metrics の可視化</title>
+      <link>//localhost:1313/links/posts/937fc107edffb449384af5ada3b845e8/</link>
+      <pubDate>Thu, 21 Dec 2023 10:17:03 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/937fc107edffb449384af5ada3b845e8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS と考える Observability のベストプラクティス</title>
+      <link>//localhost:1313/links/posts/e20d3da19c6c593f8fe2017b8c51981a/</link>
+      <pubDate>Thu, 21 Dec 2023 08:54:09 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/e20d3da19c6c593f8fe2017b8c51981a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prometheus メトリクス入門</title>
+      <link>//localhost:1313/links/posts/23dce8755b6eaec3a48fc6989aa9208c/</link>
+      <pubDate>Mon, 18 Dec 2023 23:43:10 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/23dce8755b6eaec3a48fc6989aa9208c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run で GMP を利用する際の注意点</title>
+      <link>//localhost:1313/links/posts/856c6adf19526e046b5c50af4b063d80/</link>
+      <pubDate>Mon, 18 Dec 2023 21:44:00 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/856c6adf19526e046b5c50af4b063d80/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Observability のベストプラクティスを実現：Datadog Service Scorecards によるサービスレベルの自動評価と可視化</title>
+      <link>//localhost:1313/links/posts/065a8ccf69f828f3773e4e5762b10801/</link>
+      <pubDate>Sun, 17 Dec 2023 23:50:46 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/065a8ccf69f828f3773e4e5762b10801/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RUM サンプリングのすゝめ</title>
+      <link>//localhost:1313/links/posts/61163c8044a57410cce378df6d712205/</link>
+      <pubDate>Sat, 16 Dec 2023 09:14:31 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/61163c8044a57410cce378df6d712205/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog DBM で AlloyDB を監視する</title>
+      <link>//localhost:1313/links/posts/05b44334aa03b4e861a935ffd86e9267/</link>
+      <pubDate>Fri, 15 Dec 2023 23:16:55 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/05b44334aa03b4e861a935ffd86e9267/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle Cloud Infrastructure 入門のすゝめ</title>
+      <link>//localhost:1313/links/posts/8d6eb66d818084cd67845479bb5a98ec/</link>
+      <pubDate>Thu, 14 Dec 2023 02:54:38 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/8d6eb66d818084cd67845479bb5a98ec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run で Datadog Agent をサイドカーで動かして、どうなったか【裏側】</title>
+      <link>//localhost:1313/links/posts/c63f8f803f705146ceee785fd9565dde/</link>
+      <pubDate>Wed, 13 Dec 2023 04:24:41 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/c63f8f803f705146ceee785fd9565dde/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog Go APM の Compile-time instrumentation</title>
+      <link>//localhost:1313/links/posts/6cd60de30ebf3403ee5de30e76a142fa/</link>
+      <pubDate>Tue, 12 Dec 2023 05:15:22 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/6cd60de30ebf3403ee5de30e76a142fa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Q vs Duet AI【個人的まとめ】</title>
+      <link>//localhost:1313/links/posts/92c5b6632cd753970f550157180af0e3/</link>
+      <pubDate>Mon, 11 Dec 2023 23:54:05 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/92c5b6632cd753970f550157180af0e3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oura API V2 を読み解いて、Datadog にヘルスケアデータを連携する</title>
+      <link>//localhost:1313/links/posts/d3e0bacfe00ac4c00f8e31916ab6d7e4/</link>
+      <pubDate>Sun, 10 Dec 2023 23:14:17 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/d3e0bacfe00ac4c00f8e31916ab6d7e4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes のコスト最適化ゴールデンシグナル</title>
+      <link>//localhost:1313/links/posts/3e9cfa6774c1fe2390eca5e2f2cc8b6d/</link>
+      <pubDate>Sat, 09 Dec 2023 12:40:58 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/3e9cfa6774c1fe2390eca5e2f2cc8b6d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技術コミュニティが人生を変えた話</title>
+      <link>//localhost:1313/links/posts/7ab453115d69d45b3f06d503bc3eaf37/</link>
+      <pubDate>Fri, 08 Dec 2023 20:45:24 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/7ab453115d69d45b3f06d503bc3eaf37/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog って OpenTelemetry に対応しているの？</title>
+      <link>//localhost:1313/links/posts/5c6c2fc3172903737794ab53bde49613/</link>
+      <pubDate>Thu, 07 Dec 2023 18:07:44 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/5c6c2fc3172903737794ab53bde49613/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Next.js に Datadog APM を導入する際の注意点</title>
+      <link>//localhost:1313/links/posts/dea044f8eab35f29d5ab1774f0c6bd16/</link>
+      <pubDate>Wed, 06 Dec 2023 22:39:00 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/dea044f8eab35f29d5ab1774f0c6bd16/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure App Spaces と Observability</title>
+      <link>//localhost:1313/links/posts/c705296cd0daddc9e8a833eae9d82ccf/</link>
+      <pubDate>Tue, 05 Dec 2023 20:56:44 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/c705296cd0daddc9e8a833eae9d82ccf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS re:Invent 2023 で発表された Datadog の新機能: AWS integrations 編</title>
+      <link>//localhost:1313/links/posts/1c02c018d98ced744de8a72cfdd264c1/</link>
+      <pubDate>Mon, 04 Dec 2023 21:35:05 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/1c02c018d98ced744de8a72cfdd264c1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS re:Invent 2023 で発表された Datadog の新機能: Datadog Product 編</title>
+      <link>//localhost:1313/links/posts/e617c254bf08fd5c68afd0af47e447ca/</link>
+      <pubDate>Sun, 03 Dec 2023 05:45:33 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/e617c254bf08fd5c68afd0af47e447ca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon CloudWatch Application Signals 徹底解説</title>
+      <link>//localhost:1313/links/posts/4623733e4e7a9b284e867b8f2011f5a9/</link>
+      <pubDate>Sun, 03 Dec 2023 00:55:05 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/4623733e4e7a9b284e867b8f2011f5a9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2023年の技術コミュニティ活動を振り返る</title>
+      <link>//localhost:1313/links/posts/379f5636acc1468716ee16e24effdd00/</link>
+      <pubDate>Sat, 02 Dec 2023 20:00:03 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/379f5636acc1468716ee16e24effdd00/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qiita Advent Calendar を個人で完走する</title>
+      <link>//localhost:1313/links/posts/66db4b6119b2e3a8b326ca38f61bc93d/</link>
+      <pubDate>Fri, 01 Dec 2023 14:18:10 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/66db4b6119b2e3a8b326ca38f61bc93d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure App Spaces と Azure Developer CLI</title>
+      <link>//localhost:1313/links/posts/cf92ab9f82b963a9c7d74049aa10cea8/</link>
+      <pubDate>Wed, 16 Aug 2023 11:19:44 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/cf92ab9f82b963a9c7d74049aa10cea8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run で Datadog Agent をサイドカーとして動かす</title>
+      <link>//localhost:1313/links/posts/1b2fe163e28e33546ef559288f4037d3/</link>
+      <pubDate>Sun, 21 May 2023 16:22:23 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/1b2fe163e28e33546ef559288f4037d3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datadog の AWS Integration for Multi-Accounts (AWS CloudFormation StackSets) 徹底解説</title>
+      <link>//localhost:1313/links/posts/eff3c22b45c5e9b845f57727b3fc8a6f/</link>
+      <pubDate>Wed, 26 Apr 2023 16:25:35 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/eff3c22b45c5e9b845f57727b3fc8a6f/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3大クラウドのDatadog Integrations アーキテクチャ</title>
+      <link>//localhost:1313/links/posts/25ed6db2f24e87cb08b81839c6557570/</link>
+      <pubDate>Thu, 08 Dec 2022 03:43:28 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/25ed6db2f24e87cb08b81839c6557570/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qiitaを始めるにあたって</title>
+      <link>//localhost:1313/links/posts/c479eaed8282b7b793c9764ae67c1131/</link>
+      <pubDate>Mon, 10 Jan 2022 22:01:27 +0900</pubDate>
+      <guid>//localhost:1313/links/posts/c479eaed8282b7b793c9764ae67c1131/</guid>
       <description></description>
     </item>
   </channel>
