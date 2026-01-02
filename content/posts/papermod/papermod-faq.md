@@ -58,7 +58,7 @@ Why was the `asset` not loading ? : [How_browsers_handle_Subresource_Integrity](
 
 **Solution:**
 
-Set the following in `config.yml`
+Set the following in `hugo.yaml`
 
 ```yml {linenos=true}
 params:
@@ -82,7 +82,7 @@ Create folder in yout project directory as
 
 ```
 .(site root)
-├── config.yml
+├── hugo.yaml
 ├── content/
 ├── theme/hugo-PaperMod/
 └── assets/
@@ -108,7 +108,7 @@ Custom css/js can be added by way mentioned below.
 
 ```
 .(site root)
-├── config.yml
+├── hugo.yaml
 ├── content/
 ├── theme/hugo-PaperMod/
 └── layouts
@@ -131,7 +131,7 @@ and contents of `extend_footer.html` will be added to bottom of page.
 
 You can add menu entries which will appear in the header of every page.
 
-To do so, add a `menu` section to your site's `config.yml`:
+To do so, add a `menu` section to your site's `hugo.yaml`:
 
 ```yml {linenos=true}
 menu:
@@ -243,7 +243,7 @@ use `align=center` to center image with captions
 
 ## Using Hugo's Syntax highlighter "chroma"
 
-1. Disable Highlight.js in site `config.yml`
+1. Disable Highlight.js in site `hugo.yaml`
 
    ```yml {linenos=true}
    params:
@@ -251,7 +251,7 @@ use `align=center` to center image with captions
        disableHLJS: true
    ```
 
-2. Set hugo's markdown styling in site `config.yml`
+2. Set hugo's markdown styling in site `hugo.yaml`
 
    ```yml {linenos=true}
    markup:
