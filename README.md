@@ -1,10 +1,10 @@
-# hugo-paperMod Example
+# Welcome to Ritu Blog
 
-This repository offers an example site for [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+Nothing here now
 
 ## Install
 
-Read Wiki => [hugo-PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
+Read My IG => [hugo-PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
 
 ## Directory Tree
 
