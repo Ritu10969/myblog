@@ -24,6 +24,7 @@ params:
     showFullTextContent: false
     hideFooter: false
     hidePoweredBy: true # 隐藏底部的 Hugo 推广字样
+    hidePoweredByHugo: true
 
   # 主页设置（就是你看到的那个欢迎页面）
   profileMode:
