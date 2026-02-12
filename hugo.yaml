@@ -20,10 +20,10 @@ params:
   description: "不要告诉警察你来过"
   
   # 侧边栏与外观
-  defaultTheme: auto # 自动跟随系统深色/浅色模式
-  showFullTextContent: false
-  hideFooter: false
-  hidePoweredBy: true # 隐藏底部的 Hugo 推广字样
+    defaultTheme: auto # 自动跟随系统深色/浅色模式
+    showFullTextContent: false
+    hideFooter: false
+    hidePoweredBy: true # 隐藏底部的 Hugo 推广字样
 
   # 主页设置（就是你看到的那个欢迎页面）
   profileMode:
