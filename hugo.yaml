@@ -17,7 +17,7 @@ buildDrafts: false
 params:
   env: production
   title: "Ritu Blog"
-  description: "这是 Ritu 的个人博客"
+  description: "不要告诉警察你来过"
   
   # 侧边栏与外观
   defaultTheme: auto # 自动跟随系统深色/浅色模式
@@ -28,8 +28,8 @@ params:
   # 主页设置（就是你看到的那个欢迎页面）
   profileMode:
     enabled: true
-    title: "👋 欢迎来到 Ritu Blog"
-    subtitle: "从这里开始，记录生活，分享思考。"
+    title: "🐱 你怎么找到我的"
+    subtitle: "告诉我，今天地球毁灭了吗？"
     imageUrl: "" # 以后想放头像可以把链接填在这
     buttons:
       - name: "阅读文章"
