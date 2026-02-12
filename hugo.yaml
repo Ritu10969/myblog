@@ -1,0 +1,48 @@
+# 你的博客基础设置
+baseURL: "https://myblog-9zh.pages.dev/"
+title: "Ritu Blog"
+copyright: "© 2026 [Ritu](https://myblog-9zh.pages.dev/)"
+theme: ["hugo-PaperMod"]
+
+# 核心功能开启
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+# 搜索与优化
+enableRobotsTXT: true
+buildDrafts: false
+
+# 页面布局设置
+params:
+  env: production
+  title: "Ritu Blog"
+  description: "这是 Ritu 的个人博客"
+  
+  # 侧边栏与外观
+  defaultTheme: auto # 自动跟随系统深色/浅色模式
+  showFullTextContent: false
+  hideFooter: false
+  hidePoweredBy: true # 隐藏底部的 Hugo 推广字样
+
+  # 主页设置（就是你看到的那个欢迎页面）
+  profileMode:
+    enabled: true
+    title: "👋 欢迎来到 Ritu Blog"
+    subtitle: "从这里开始，记录生活，分享思考。"
+    imageUrl: "" # 以后想放头像可以把链接填在这
+    buttons:
+      - name: "阅读文章"
+        url: "posts"
+
+# 导航栏设置（网页顶部的菜单）
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
