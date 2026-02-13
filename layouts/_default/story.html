@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <style>
+        :root { --bg-color: #0a0a0a; --text-main: #888; --shio-color: #d0d0d0; --haru-color: #666; --monologue: #4a3b3b; }
+        body, html { background-color: var(--bg-color); color: var(--text-main); margin: 0; padding: 0; height: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center; cursor: pointer; font-family: "serif"; }
+        #stage { max-width: 700px; width: 85%; min-height: 250px; }
+        .line { margin-bottom: 2em; line-height: 1.8; opacity: 0; transition: opacity 1.2s ease; }
+        .show { opacity: 1; }
+        .name { font-size: 0.85em; margin-bottom: 0.4em; display: block; letter-spacing: 0.1em; }
+        .shio .name { color: var(--shio-color); }
+        .haru .name { color: var(--haru-color); }
+        .shio .content { color: var(--shio-color); }
+        .haru .content { color: var(--haru-color); }
+        .monologue { color: var(--monologue); font-style: italic; }
+        #hint { position: fixed; bottom: 20px; width: 100%; text-align: center; font-size: 10px; color: #222; }
+    </style>
+</head>
+<body onclick="advance()">
+    <div id="stage"></div>
+    <div id="hint">— TOUCH TO ADVANCE —</div>
+
+    <script>
+        // 将故事脚本放在这里
+        const story = [
+            { type: 'title', text: '第一章：现实' },
+            { type: 'shio', name: '汐', text: '見て、ハル。これが君が守りたかった‘聖女’の正体だよ。' },
+            { type: 'haru', name: '悠', text: '……。' },
+            { type: 'haru', name: '悠', text: '聖女なんて一度も思ったことはない。' },
+            { type: 'shio', name: '汐', text: '……冷たいね。' },
+            { type: 'haru', name: '悠', text: '汚れているのは君じゃない。君にこれを強いている、僕たちの存在そのものだ。' },
+            { type: 'haru', name: '悠', text: '僕を、君の汚れの一部にしてくれ。' },
+        ];
+
+        let index = 0;
+        const stage = document.getElementById('stage');
+
+        function advance() {
+            if (index >= story.length) return;
+            const data = story[index];
+            if (data.type === 'title' || index % 4 === 0) {
+                stage.style.opacity = 0;
+                setTimeout(() => { stage.innerHTML = ''; render(data); stage.style.opacity = 1; }, 500);
+            } else {
+                render(data);
+            }
+            index++;
+        }
+
+        function render(d) {
+            const div = document.createElement('div');
+            div.className = `line ${d.type}`;
+            div.innerHTML = d.name ? `<span class="name">${d.name}</span><span class="content">${d.text}</span>` : `<span class="content">${d.text}</span>`;
+            stage.appendChild(div);
+            setTimeout(() => div.classList.add('show'), 50);
+        }
+        advance();
+    </script>
+</body>
+</html>
