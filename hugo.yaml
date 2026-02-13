@@ -1,15 +1,2 @@
 baseURL: "https://myblog-9zh.pages.dev/"
 title: "Ritu's Space"
-theme: "PaperMod"
-
-disableKinds: ["taxonomy", "term"]
-
-params:
-  homeInfoParams:
-    Title: "Ritu"
-    Content: "近期 · 尘埃"
-
-  hideFooter: true
-  ShowFullTextinHome: false
-  disableCopyright: true
-  hidePoweredBy: true  
