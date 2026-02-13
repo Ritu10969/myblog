@@ -1,6 +1,7 @@
 ---
 title: "测试文章"
 date: 2025-01-01
+type: "post"
 categories: ["recently"]
 draft: false
 ---
