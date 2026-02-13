@@ -1,7 +1,7 @@
 ---
 title: "地球毁灭后的365年"
 date: 2026-02-13T12:00:00+08:00
-categories: ["recently"]
+categories: ["RECENTLY"]
 draft: false
 ---
 
