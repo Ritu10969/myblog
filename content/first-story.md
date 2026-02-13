@@ -1,8 +1,7 @@
 ---
 title: "地球毁灭后的365年"
-date: 2026-02-13T12:00:00+08:00
+date: 2026-02-13
 categories: ["RECENTLY"]
-draft: false
 ---
 
 <div id="game-trigger" style="text-align: center; margin-top: 80px; font-family: serif;">
