@@ -1,22 +1,89 @@
 <!DOCTYPE html>
+<html lang="zh">
+<head>
 <title>Ritu's Space</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  /* 基础复位 */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
   body { 
-    max-width: 500px; 
-    margin: 20vh auto; 
-    text-align: center; 
-    font-family: sans-serif; 
+    background-color: #fafafa; /* 极其浅的灰色背景，比纯白更柔和 */
+    color: #333;
+    max-width: 600px; 
+    margin: 0 auto; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中 */
+    align-items: center;
+    /* 引入衬线体增强文学感 */
+    font-family: "Hiragino Mincho ProN", "Noto Serif SC", serif; 
+    -webkit-font-smoothing: antialiased;
   }
-  h1 { font-weight: 400; letter-spacing: 2px; }
-  p { color: gray; font-size: 14px; margin: 20px 0 40px; }
-  a { text-decoration: none; color: #000; margin: 0 15px; font-size: 13px; }
-  a:hover { color: gray; }
+
+  h1 { 
+    font-weight: 200; 
+    font-size: 1.8rem;
+    letter-spacing: 0.15em; 
+    margin-bottom: 0.5rem;
+  }
+
+  p { 
+    color: #999; 
+    font-size: 0.85rem; 
+    margin-bottom: 3rem; 
+    font-style: italic; /* 斜体增加故事感 */
+    letter-spacing: 0.05em;
+  }
+
+  nav {
+    border-top: 1px solid #eee; /* 增加一条极淡的分割线 */
+    padding-top: 2rem;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav a { 
+    text-decoration: none; 
+    color: #666; 
+    font-size: 12px; 
+    letter-spacing: 0.2em;
+    transition: all 0.4s ease; /* 平滑过渡 */
+    position: relative;
+  }
+
+  /* 精致的悬停效果：出现一条淡淡的下划线 */
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -4px;
+    left: 0;
+    background-color: #333;
+    transition: width 0.3s ease;
+  }
+
+  nav a:hover { 
+    color: #000; 
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
 </style>
+</head>
+<body>
 
 <h1>🐱 世界毁灭了吗？</h1>
 <p>如果警察问起，记得说你没来过</p>
+
 <nav>
   <a href="categories/recently/">RECENTLY</a>
   <a href="categories/dust/">DUST</a>
 </nav>
+
+</body>
+</html>
