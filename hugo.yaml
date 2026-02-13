@@ -1,24 +1,11 @@
 baseURL: https://myblog-9zh.pages.dev/
-languageCode: zh-cn
-title: Ritu's Space          # 你的大标题
+title: "🐱 今天世界毁灭了吗？"
 theme: PaperMod
 
 params:
-  kindlyGreeting: false
   homeInfoParams:
-    Title: "🐱 今天地球毁灭了吗"            # 主页大标题
-    Content: "先祝您未来安好吧" # 副标题
+    Title: "Ritu"
+    Content: "现在 · 尘埃"
 
-  # 只要这两个标签
-  menu:
-    main:
-      - name: 近期
-        url: /categories/recently/
-        weight: 10
-      - name: 尘埃
-        url: /categories/dust/
-        weight: 20
-
-  # 物理屏蔽所有乱七八糟的推广
-  hideFooter: true
-  disableCopyright: true
+  hideFooter: true           # 隐藏页脚广告
+  disableCopyright: true     # 隐藏版权
