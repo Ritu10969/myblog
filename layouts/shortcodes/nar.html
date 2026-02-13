@@ -1,0 +1,35 @@
+<div style="text-align: center; margin: 60px 0;">
+    <button onclick="startNar()" style="padding: 12px 30px; cursor: pointer; border: 1px solid #333; background: #fff; font-family: serif; letter-spacing: 2px;">开启观测</button>
+</div>
+
+<div id="nar-overlay" style="display:none; position: fixed; top:0; left:0; width:100vw; height:100vh; background:#fff; z-index:9999; justify-content:center; align-items:center; cursor:pointer;">
+    <div id="nar-stage" style="max-width:500px; width:85%; color:#1a1a1a; font-family:serif; line-height:2.2; font-size:15px; transition: opacity 0.5s;"></div>
+</div>
+
+<script>
+// 这里会自动读取你在 Markdown 里写的对白
+var lines = [ {{ .Inner | safeJS }} ];
+var current = 0;
+
+function startNar() {
+    document.getElementById('nar-overlay').style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // 禁止滚动页面
+    showLine();
+}
+
+function showLine() {
+    var stage = document.getElementById('nar-stage');
+    if (current >= lines.length) {
+        location.reload(); // 播完重刷
+        return;
+    }
+    stage.style.opacity = 0; // 淡出
+    setTimeout(function() {
+        stage.innerText = lines[current];
+        stage.style.opacity = 1; // 淡入
+        current++;
+    }, 400);
+}
+
+document.getElementById('nar-overlay').onclick = showLine;
+</script>
