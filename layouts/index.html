@@ -1,77 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
+<meta charset="UTF-8">
 <title>Ritu's Space</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400&display=swap" rel="stylesheet">
+
 <style>
   /* 基础复位 */
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body { 
-    background-color: #fafafa; /* 极其浅的灰色背景，比纯白更柔和 */
+    background-color: #fafafa; 
     color: #333;
     max-width: 600px; 
     margin: 0 auto; 
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* 垂直居中 */
+    justify-content: center; 
     align-items: center;
-    /* 引入衬线体增强文学感 */
-    font-family: "Hiragino Mincho ProN", "Noto Serif SC", serif; 
+    /* 优先使用思源宋体，兜底使用系统衬线字体 */
+    font-family: 'Noto Serif SC', 'Hiragino Mincho ProN', 'Source Han Serif SC', 'SimSun', serif;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1 { 
-    font-weight: 200; 
-    font-size: 1.8rem;
-    letter-spacing: 0.15em; 
-    margin-bottom: 0.5rem;
+    font-weight: 400; /* 思源宋体 400 刚好 */
+    font-size: 1.6rem;
+    letter-spacing: 0.12em; 
+    margin-bottom: 0.8rem;
+    color: #1a1a1a;
   }
 
   p { 
     color: #999; 
     font-size: 0.85rem; 
-    margin-bottom: 3rem; 
-    font-style: italic; /* 斜体增加故事感 */
-    letter-spacing: 0.05em;
+    margin-bottom: 3.5rem; 
+    letter-spacing: 0.1em;
+    /* 让副标题有一种呼吸感 */
+    font-weight: 200;
   }
 
   nav {
-    border-top: 1px solid #eee; /* 增加一条极淡的分割线 */
-    padding-top: 2rem;
-    width: 200px;
     display: flex;
-    justify-content: space-around;
+    gap: 40px; /* 链接之间的间距 */
   }
 
   nav a { 
     text-decoration: none; 
-    color: #666; 
+    color: #888; 
     font-size: 12px; 
-    letter-spacing: 0.2em;
-    transition: all 0.4s ease; /* 平滑过渡 */
+    letter-spacing: 0.25em;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+    padding-bottom: 5px;
   }
 
-  /* 精致的悬停效果：出现一条淡淡的下划线 */
+  /* 精致的下划线动画 */
   nav a::after {
     content: '';
     position: absolute;
-    width: 0;
+    width: 0%;
     height: 1px;
-    bottom: -4px;
+    bottom: 0;
     left: 0;
     background-color: #333;
-    transition: width 0.3s ease;
+    transition: width 0.4s ease;
   }
 
   nav a:hover { 
-    color: #000; 
+    color: #1a1a1a; 
   }
 
   nav a:hover::after {
     width: 100%;
+  }
+
+  /* 适配移动端 */
+  @media (max-width: 480px) {
+    h1 { font-size: 1.4rem; }
+    p { font-size: 0.8rem; }
   }
 </style>
 </head>
