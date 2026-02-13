@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }} - Ritu's Space</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { max-width: 500px; margin: 10vh auto; padding: 20px; font-family: sans-serif; line-height: 1.6; color: #333; }
+    h1 { font-weight: 400; letter-spacing: 1px; margin-bottom: 40px; text-align: center; }
+    nav { text-align: center; margin-bottom: 50px; }
+    a { text-decoration: none; color: gray; font-size: 13px; }
+    a:hover { color: #000; }
+    .content { text-align: left; }
+  </style>
+</head>
+<body>
+  <nav><a href="/">← BACK TO HOME</a></nav>
+  <h1>{{ .Title }}</h1>
+  <div class="content">{{ .Content }}</div>
+</body>
+</html>
