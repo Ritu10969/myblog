@@ -1,11 +1,15 @@
-baseURL: https://myblog-9zh.pages.dev/
-title: "🐱 今天世界毁灭了吗？"
-theme: PaperMod
+baseURL: "https://myblog-9zh.pages.dev/"
+title: "Ritu's Space"
+theme: "PaperMod"
+
+disableKinds: ["taxonomy", "term"]
 
 params:
   homeInfoParams:
     Title: "Ritu"
-    Content: "现在 · 尘埃"
+    Content: "近期 · 尘埃"
 
-  hideFooter: true           
-  disableCopyright: true    
+  hideFooter: true
+  ShowFullTextinHome: false
+  disableCopyright: true
+  hidePoweredBy: true  
