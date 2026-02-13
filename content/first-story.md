@@ -1,5 +1,6 @@
 ---
 title: "地球毁灭后的365年"
 date: 2026-02-13
+categories: ["recently"]  
 ---
 一切消散，包括尘埃。
