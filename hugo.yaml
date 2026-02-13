@@ -7,5 +7,5 @@ params:
     Title: "Ritu"
     Content: "现在 · 尘埃"
 
-  hideFooter: true           # 隐藏页脚广告
-  disableCopyright: true     # 隐藏版权
+  hideFooter: true           
+  disableCopyright: true    
