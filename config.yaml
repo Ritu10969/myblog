@@ -1,2 +1,3 @@
 baseURL = "https://myblog-9zh.pages.dev/"
+theme = hugo-theme-stack
 title = "🐱 今天世界毁灭了吗？"
