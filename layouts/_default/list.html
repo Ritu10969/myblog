@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }} - Ritu's Space</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { max-width: 500px; margin: 20vh auto; text-align: center; font-family: sans-serif; }
+    h1 { font-weight: 400; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 30px; }
+    .post-link { display: block; margin: 15px 0; text-decoration: none; color: #000; font-size: 14px; }
+    .post-link:hover { color: gray; }
+    nav { margin-top: 50px; }
+    a.home { text-decoration: none; color: gray; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>{{ .Title }}</h1>
+  {{ range .Pages }}
+    <a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+  <nav><a class="home" href="/">← BACK</a></nav>
+</body>
+</html>
