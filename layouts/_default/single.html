@@ -1,21 +1,116 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ .Title }} - Ritu's Space</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { max-width: 500px; margin: 10vh auto; padding: 20px; font-family: sans-serif; line-height: 1.6; color: #333; }
-    h1 { font-weight: 400; letter-spacing: 1px; margin-bottom: 40px; text-align: center; }
-    nav { text-align: center; margin-bottom: 50px; }
-    a { text-decoration: none; color: gray; font-size: 13px; }
-    a:hover { color: #000; }
-    .content { text-align: left; }
-  </style>
+<meta charset="UTF-8">
+<title>{{ .Title }} - Ritu's Space</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400&display=swap" rel="stylesheet">
+
+<style>
+  /* 基础设置 */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body { 
+    background-color: #fafafa; 
+    color: #333;
+    max-width: 620px; /* 适合长文阅读的黄金宽度 */
+    margin: 0 auto; 
+    padding: 15vh 30px; /* 顶部留白，营造呼吸感 */
+    font-family: 'Noto Serif SC', 'Hiragino Mincho ProN', 'Source Han Serif SC', 'SimSun', serif;
+    line-height: 1.85; /* 宽大的行间距，适合中文阅读 */
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header { margin-bottom: 70px; }
+
+  h1 { 
+    font-weight: 400; 
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .meta {
+    color: #bbb;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  /* 文章正文 */
+  .content {
+    font-size: 16px;
+    color: #3e3e3e;
+    text-align: justify; /* 两端对齐，非常有书籍质感 */
+    word-break: break-all;
+  }
+
+  .content p {
+    margin-bottom: 1.8rem;
+  }
+
+  /* 图片样式：自适应且稍微带一点圆角或阴影 */
+  .content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+  }
+
+  /* 引用块样式 */
+  blockquote {
+    border-left: 2px solid #eee;
+    padding-left: 20px;
+    margin: 2rem 0;
+    color: #888;
+    font-style: italic;
+  }
+
+  footer {
+    margin-top: 120px;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+  }
+
+  .back-home {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    transition: all 0.3s;
+  }
+
+  .back-home:hover {
+    color: #1a1a1a;
+    padding-left: 5px; /* 一个微小的动效 */
+  }
+
+  /* 移动端优化 */
+  @media (max-width: 480px) {
+    body { padding: 10vh 25px; }
+    h1 { font-size: 1.5rem; }
+  }
+</style>
 </head>
 <body>
-  <nav><a href="/">← BACK TO HOME</a></nav>
+
+<header>
   <h1>{{ .Title }}</h1>
-  <div class="content">{{ .Content }}</div>
+  <div class="meta">{{ .Date.Format "January 02, 2006" }}</div>
+</header>
+
+<article class="content">
+  {{ .Content }}
+</article>
+
+<footer>
+  <a href="javascript:history.back()" class="back-home">← GO BACK</a>
+</footer>
+
 </body>
 </html>
