@@ -1,75 +1,93 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ .Title }} - Ritu's Space</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    /* 1. 确保底色和首页完全一致（纯白或极淡色） */
-    :root {
-      --bg-color: #ffffff; 
-      --main-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    }
+<meta charset="UTF-8">
+<title>{{ .Title }} - Ritu's Space</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    body { 
-      max-width: 500px; 
-      margin: 20vh auto; 
-      padding: 0 20px; /* 移动端防挤压 */
-      text-align: center; 
-      font-family: var(--main-font); /* 同步首页字体 */
-      background-color: var(--bg-color);
-      -webkit-font-smoothing: antialiased; /* 让字体看起来更清爽 */
-    }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400&display=swap" rel="stylesheet">
 
-    h1 { 
-      font-weight: 400; 
-      letter-spacing: 3px; 
-      text-transform: uppercase; 
-      font-size: 16px; /* 稍微缩小，更显精致 */
-      color: #999; 
-      margin-bottom: 60px; 
-    }
+<style>
+  /* 2. 复制首页的核心样式 */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    .post-link { 
-      display: block; 
-      margin: 25px 0; 
-      text-decoration: none; 
-      color: #000; 
-      font-size: 14px; /* 中英文混合时，14px 更有阅读感 */
-      letter-spacing: 0.5px;
-      transition: color 0.3s ease;
-    }
+  body { 
+    background-color: #fafafa; 
+    color: #333;
+    max-width: 600px; 
+    margin: 0 auto; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    /* 保持字体一致 */
+    font-family: 'Noto Serif SC', 'Hiragino Mincho ProN', 'Source Han Serif SC', 'SimSun', serif;
+    -webkit-font-smoothing: antialiased;
+  }
 
-    .post-link:hover { 
-      color: #999; 
-    }
+  h1 { 
+    font-weight: 400; 
+    font-size: 1.2rem; /* 分类页标题稍微小一点，显得精致 */
+    letter-spacing: 0.2em; 
+    margin-bottom: 3rem;
+    color: #999; /* 延续灰调 */
+    text-transform: uppercase;
+  }
 
-    nav { 
-      margin-top: 80px; 
-      /* 去掉了边框，改用更多留白来营造高级感，和首页更像 */
-      padding-top: 20px;
-    }
+  .post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 
-    a.home { 
-      text-decoration: none; 
-      color: #ccc; 
-      font-size: 12px; 
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
+  .post-item { 
+    text-decoration: none; 
+    color: #444; 
+    font-size: 14px; 
+    letter-spacing: 0.1em;
+    transition: all 0.4s ease;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+  }
 
-    a.home:hover { color: #000; }
-  </style>
+  .post-item:hover { 
+    color: #1a1a1a; 
+    border-bottom: 1px solid #333;
+  }
+
+  nav {
+    margin-top: 80px;
+  }
+
+  .back-home { 
+    text-decoration: none; 
+    color: #ccc; 
+    font-size: 11px; 
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+
+  .back-home:hover { color: #000; }
+</style>
 </head>
 <body>
+
   <h1>{{ .Title }}</h1>
-  
-  {{ range .Pages }}
-    <a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  {{ end }}
+
+  <div class="post-list">
+    {{ range .Pages }}
+      <a class="post-item" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
+  </div>
 
   <nav>
-    <a class="home" href="/">← RETURN</a>
+    <a href="/" class="back-home">← RETURN</a>
   </nav>
+
 </body>
 </html>
