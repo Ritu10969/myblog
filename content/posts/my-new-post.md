@@ -1,7 +1,7 @@
 ---
 title: "我的2016-2026"
 date: 2026-03-03
-categories: ["recently"]
+categories: ["dust"]
 draft: false
 ---
 
