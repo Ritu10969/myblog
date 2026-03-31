@@ -8,13 +8,13 @@ draft: false
 
 最后还是决定加上介绍。慢慢修补吧。
 
-Some Music
+Some Music  
 [🎵](https://open.spotify.com/playlist/3PAAOUt0VACAWobDxNpn4D?si=60740d825b604b3d)
 
 
-Behance of Ritu
+Behance of Ritu  
 [💜](https://www.behance.net/5b973488)
 
 
-Book Film Game CD
+Book Film Game CD  
 [🎬](https://www.douban.com/people/mrluo10969/?_i=4942132RoAGOQ_)
