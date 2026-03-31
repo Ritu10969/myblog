@@ -8,10 +8,11 @@ draft: false
 
 最后还是决定加上介绍。慢慢修补吧。
 
+Some Music
+[🎵](https://open.spotify.com/playlist/3PAAOUt0VACAWobDxNpn4D?si=60740d825b604b3d)
 
-[Me](ttps://www.instagram.com/yingting.luo10969?igsh=MW1ncmFoeTY0Ymc0Nw%3D%3D&utm_source=qr)
 
-
-[Behance](https://www.behance.net/5b973488)
+Behance of Ritu
+[💜](https://www.behance.net/5b973488)
 
 
