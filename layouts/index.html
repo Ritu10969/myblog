@@ -86,12 +86,17 @@
     h1 { font-size: 1.4rem; }
     p { font-size: 0.8rem; }
   }
-  
-  /* --- 在这里加入全局补丁 --- */
-  a { 
-    color: inherit !important; 
-    text-decoration-color: #ddd !important; 
+ /* 只针对文章正文里的链接进行修改，不影响首页导航 */
+  .post-content a, .entry-content a, article a {
+    color: #666 !important; /* 变成深灰色，不再是蓝色 */
+    text-decoration: underline !important;
+    text-decoration-color: #ddd !important;
     text-underline-offset: 3px;
+  }
+
+  /* 保持首页导航和底部链接的原始颜色不被干扰 */
+  nav a, .position-absolute a, [style*="position: absolute"] a {
+    color: inherit;
   }
 </style>
 </head>
